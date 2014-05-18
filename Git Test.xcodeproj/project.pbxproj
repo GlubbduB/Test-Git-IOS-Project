@@ -21,6 +21,7 @@
 		51AA15CF192906BD00885B8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AA15B1192906BC00885B8B /* UIKit.framework */; };
 		51AA15D7192906BD00885B8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51AA15D5192906BD00885B8B /* InfoPlist.strings */; };
 		51AA15D9192906BD00885B8B /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AA15D8192906BD00885B8B /* Git_TestTests.m */; };
+		51AA15E419291A9C00885B8B /* STTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AA15E319291A9C00885B8B /* STTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		51AA15D4192906BD00885B8B /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		51AA15D6192906BD00885B8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51AA15D8192906BD00885B8B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		51AA15E219291A9C00885B8B /* STTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTest.h; sourceTree = "<group>"; };
+		51AA15E319291A9C00885B8B /* STTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				51AA15BF192906BD00885B8B /* Main.storyboard */,
 				51AA15C2192906BD00885B8B /* STViewController.h */,
 				51AA15C3192906BD00885B8B /* STViewController.m */,
+				51AA15E219291A9C00885B8B /* STTest.h */,
+				51AA15E319291A9C00885B8B /* STTest.m */,
 				51AA15C5192906BD00885B8B /* Images.xcassets */,
 				51AA15B4192906BC00885B8B /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				51AA15C4192906BD00885B8B /* STViewController.m in Sources */,
 				51AA15BA192906BC00885B8B /* main.m in Sources */,
+				51AA15E419291A9C00885B8B /* STTest.m in Sources */,
 				51AA15BE192906BC00885B8B /* STAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
